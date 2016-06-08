@@ -1,0 +1,44 @@
+{
+  "Contacts" : {
+    "_id" : "wm-Contacts-wm.DeviceVariable-1465369851804",
+    "name" : "Contacts",
+    "owner" : "Page",
+    "category" : "wm.DeviceVariable",
+    "dataBinding" : [ ],
+    "service" : "contacts",
+    "operation" : "getContacts",
+    "dataSet" : [ {
+      "id" : "",
+      "displayName" : "",
+      "phoneNumbers" : [ {
+        "value" : ""
+      } ]
+    } ],
+    "startUpdate" : true
+  },
+  "MyJavaServiceSampleJavaOperation" : {
+    "_id" : "wm-MyJavaServiceSampleJavaOperation-wm.ServiceVariable-1465390411768",
+    "name" : "MyJavaServiceSampleJavaOperation",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "string",
+    "service" : "MyJavaService",
+    "operation" : "sampleJavaOperation",
+    "operationId" : "MyJavaController_sampleJavaOperation",
+    "operationType" : "get",
+    "serviceType" : "JavaService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "firstRow" : 0,
+    "maxResults" : 20,
+    "designMaxResults" : 10,
+    "startUpdate" : false,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "MyJava"
+  }
+}

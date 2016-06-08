@@ -1,0 +1,142 @@
+{
+  "notificationVariable1" : {
+    "_id" : "wm-notificationVariable1-wm.NotificationVariable-1465379459056",
+    "name" : "notificationVariable1",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "On load event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable2" : {
+    "_id" : "wm-notificationVariable2-wm.NotificationVariable-1465380177840",
+    "name" : "notificationVariable2",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "On close event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable3" : {
+    "_id" : "wm-notificationVariable3-wm.NotificationVariable-1465380201679",
+    "name" : "notificationVariable3",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "On expand event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable4" : {
+    "_id" : "wm-notificationVariable4-wm.NotificationVariable-1465380216176",
+    "name" : "notificationVariable4",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "On collapse event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable5" : {
+    "_id" : "wm-notificationVariable5-wm.NotificationVariable-1465380232712",
+    "name" : "notificationVariable5",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "on actions click event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable6" : {
+    "_id" : "wm-notificationVariable6-wm.NotificationVariable-1465380249424",
+    "name" : "notificationVariable6",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "on full screen event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "notificationVariable7" : {
+    "_id" : "wm-notificationVariable7-wm.NotificationVariable-1465380270216",
+    "name" : "notificationVariable7",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "on exit event",
+      "type" : "string"
+    }, {
+      "target" : "okButtonText",
+      "value" : "ok",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  }
+}

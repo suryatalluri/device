@@ -1,10 +1,40 @@
 <wm-page data-ng-controller="MainPageController" name="mainpage">
-  <wm-left-panel content="leftnav" columnwidth="2" name="left_panel1"></wm-left-panel>
-  <wm-mobile-navbar name="mobile_navbar1" title="Title" leftnavpaneliconclass="wi wi-menu" backbutton="false">
-    <wm-anchor caption="" name="AddLink" iconclass="wi wi-plus"></wm-anchor>
-  </wm-mobile-navbar>
-  <wm-content name="content1">
-    <wm-page-content columnwidth="12" name="page_content1"></wm-page-content>
-  </wm-content>
-  <wm-mobile-tabbar dataset="home,music,edit" name="mobile_tabbar1"></wm-mobile-tabbar>
+    <wm-left-panel content="leftnav" columnwidth="2" name="left_panel1"></wm-left-panel>
+    <wm-mobile-navbar name="mobile_navbar1" title="Title" leftnavpaneliconclass="wi wi-menu" backbutton="false">
+        <wm-anchor caption="" name="AddLink" iconclass="wi wi-plus"></wm-anchor>
+    </wm-mobile-navbar>
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" dataset="bind:Variables.Contacts.dataSet" navigation="None" name="livelist1">
+                <wm-listtemplate layout="media" name="listtemplate1">
+                    <wm-layoutgrid height="100" name="layoutgrid1">
+                        <wm-gridrow height="100%" name="gridrow1">
+                            <wm-gridcolumn class="media-left" columnwidth="3" name="gridcolumn1">
+                                <wm-picture class="media-object" width="100%" name="Picture"></wm-picture>
+                            </wm-gridcolumn>
+                            <wm-gridcolumn columnwidth="9" name="gridcolumn2">
+                                <wm-label caption="bind:Variables.Contacts.dataSet[0].name.formatted" name="Name" class="media-heading h4" width="100%"></wm-label>
+                                <wm-label caption="bind:Variables.Contacts.dataSet.phoneNumbers[0].value" class="text-muted" name="Title" width="100%"></wm-label>
+                            </wm-gridcolumn>
+                        </wm-gridrow>
+                    </wm-layoutgrid>
+                </wm-listtemplate>
+            </wm-livelist>
+            <wm-barcodescanner name="barcodescanner1"></wm-barcodescanner>
+            <wm-label name="label3" caption="bind:Variables.Contacts.dataSet[$i].displayName"></wm-label>
+            <wm-livelist listclass="list-group" itemclass="list-group-item" template="true" dataset="bind:Variables.MyJavaServiceSampleJavaOperation.dataSet" navigation="Scroll" name="livelist2">
+                <wm-listtemplate layout="media" name="listtemplate2">
+                    <wm-layoutgrid height="100" name="layoutgrid2">
+                        <wm-gridrow height="100%" name="gridrow2">
+                            <wm-gridcolumn columnwidth="9" name="gridcolumn4">
+                                <wm-label caption="bind:Variables.MyJavaServiceSampleJavaOperation.dataSet.value" name="Name" class="media-heading h4" width="100%"></wm-label>
+                                <wm-label caption="Title" class="text-muted" name="Title" width="100%"></wm-label>
+                            </wm-gridcolumn>
+                        </wm-gridrow>
+                    </wm-layoutgrid>
+                </wm-listtemplate>
+            </wm-livelist>
+        </wm-page-content>
+    </wm-content>
+    <wm-mobile-tabbar dataset="home,music,edit" name="mobile_tabbar1"></wm-mobile-tabbar>
 </wm-page>
